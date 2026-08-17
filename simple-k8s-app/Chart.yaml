@@ -1,11 +1,12 @@
 #############
 ## Theses are mostly irrelevant in this use case but mandatory for helm templating to run
 apiVersion: v2
-name: service
+name: simple-k8s-app
 version: 1.0.0
+type: application
 #############
 
 dependencies:
-  - name: "simple-k8s-app"
+  - name: simple-k8s-app
     version: "0.1.60-PullRequest121.10"
     repository: "oci://ghcr.io/constantin07/hello-kubernetes-helm/hello-kubernetes"
