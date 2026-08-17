@@ -7,5 +7,5 @@ version: 1.0.0
 
 dependencies:
   - name: "simple-k8s-app"
-    version: "0.1.56"
+    version: ""
     repository: "oci://ghcr.io/constantin07/hello-kubernetes-helm/hello-kubernetes"
