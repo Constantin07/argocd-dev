@@ -9,4 +9,3 @@ dependencies:
   - name: hello-kubernetes
     version: "0.1.56"
     repository: "oci://ghcr.io/constantin07/hello-kubernetes-helm"
-    alias: simple-k8s-app
