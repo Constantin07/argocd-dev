@@ -6,6 +6,7 @@ hello-kubernetes:
 
   hpa:
     enabled: true
+    maxReplicas: 2
 
   ingress:
     enabled: true
