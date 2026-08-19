@@ -9,4 +9,4 @@ type: application
 dependencies:
   - name: simple-k8s-app
     version: "0.1.61"
-    repository: "oci://ghcr.io/constantin07/hello-kubernetes-helm/hello-kubernetes"
+    repository: "ghcr.io/constantin07/hello-kubernetes-helm/hello-kubernetes"
