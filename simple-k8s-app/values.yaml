@@ -5,4 +5,7 @@ hello-kubernetes:
     VAULT_SKIP: true
 
   hpa:
+    enabled: true
+
+  ingress:
     enabled: false
