@@ -1,2 +1,5 @@
 hello-kubernetes:
   replicaCount: 1
+
+  hpa:
+    enabled: false
