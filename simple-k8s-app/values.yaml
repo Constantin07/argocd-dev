@@ -8,4 +8,7 @@ hello-kubernetes:
     enabled: true
 
   ingress:
-    enabled: false
+    enabled: true
+    ingressClassName: kong
+    annotations: {}
+    host: hello-kubernetes.internal
