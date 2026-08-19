@@ -1,5 +1,8 @@
 hello-kubernetes:
   replicaCount: 1
 
+  env:
+    VAULT_SKIP: true
+
   hpa:
     enabled: false

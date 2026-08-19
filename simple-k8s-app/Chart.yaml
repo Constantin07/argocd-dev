@@ -3,6 +3,7 @@
 apiVersion: v2
 name: simple-k8s-app
 version: 1.0.0
+type: application
 #############
 
 dependencies:
