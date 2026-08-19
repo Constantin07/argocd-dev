@@ -7,6 +7,7 @@ type: application
 #############
 
 dependencies:
-  - name: simple-k8s-app
-    version: "0.1.61"
-    repository: "ghcr.io/constantin07/hello-kubernetes-helm/hello-kubernetes"
+  - name: hello-kubernetes
+    version: "0.1.56"
+    repository: "oci://ghcr.io/constantin07/hello-kubernetes-helm"
+    alias: simple-k8s-app
