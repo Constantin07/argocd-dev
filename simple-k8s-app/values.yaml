@@ -1,1 +1,2 @@
-#hello-kubernetes:
+hello-kubernetes:
+  replicaCount: 1
