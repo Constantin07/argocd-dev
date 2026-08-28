@@ -4,6 +4,7 @@ metadata:
   name: guestbook-ui-ingress
   annotations:
     kubernetes.io/ingress.class: kong
+    link.argocd.argoproj.io/external-link: "http://guestbook-ui.internal:30000"
 spec:
   rules:
   - host: guestbook-ui.internal # Change to your domain name
