@@ -4,6 +4,7 @@ metadata:
   name: guestbook-ui-ingress
   annotations:
     kubernetes.io/ingress.class: kong
+    argocd.argoproj.io/ignore-default-links: "true"
     link.argocd.argoproj.io/external-link: "http://guestbook-ui.internal:30000"
 spec:
   rules:
