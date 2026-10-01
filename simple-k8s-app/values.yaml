@@ -1,6 +1,12 @@
 hello-kubernetes:
   replicaCount: 1
 
+  deployment:
+    enabled: false
+
+  rollout:
+    enabled: true
+
   env:
     VAULT_SKIP: true
 
