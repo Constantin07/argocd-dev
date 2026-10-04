@@ -6,6 +6,9 @@ hello-kubernetes:
 
   rollouts:
     enabled: true
+    strategy:
+      blueGreen:
+        autoPromotionEnabled: false
 
   env:
     VAULT_SKIP: true
