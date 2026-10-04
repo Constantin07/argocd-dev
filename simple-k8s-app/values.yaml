@@ -1,5 +1,5 @@
 hello-kubernetes:
-  replicaCount: 1
+  replicaCount: 2
 
   deployment:
     enabled: false
