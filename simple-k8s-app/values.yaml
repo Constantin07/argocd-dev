@@ -4,7 +4,7 @@ hello-kubernetes:
   deployment:
     enabled: false
 
-  rollout:
+  rollouts:
     enabled: true
 
   env:
