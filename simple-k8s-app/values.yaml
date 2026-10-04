@@ -9,8 +9,9 @@ hello-kubernetes:
     strategy:
       blueGreen:
         autoPromotionEnabled: true
-        connectivityTest:
-          enabled: true
+
+      connectivityTest:
+        enabled: true
 
   env:
     VAULT_SKIP: true
