@@ -8,7 +8,7 @@ hello-kubernetes:
     enabled: true
     strategy:
       blueGreen:
-        autoPromotionEnabled: false
+        autoPromotionEnabled: true
 
   env:
     VAULT_SKIP: true
