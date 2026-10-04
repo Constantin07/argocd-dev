@@ -17,8 +17,22 @@ hello-kubernetes:
     enabled: true
     maxReplicas: 2
 
-  ingress:
+  httpRoute:
     enabled: true
+    httpRoute:
+    parentRefs:
+      - name: test
+        namespace: test
+    hostnames:
+      - hello-kubernetes.internal
+    rules:
+      - matches:
+          - path:
+              type: PathPrefix
+              value: /
+
+  ingress:
+    enabled: false
     ingressClassName: kong
     annotations:
       argocd.argoproj.io/ignore-default-links: "true"
