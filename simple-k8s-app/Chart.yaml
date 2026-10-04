@@ -8,5 +8,5 @@ type: application
 
 dependencies:
   - name: hello-kubernetes
-    version: "0.1.94"
+    version: "0.1.95"
     repository: "oci://ghcr.io/constantin07/hello-kubernetes-helm"
