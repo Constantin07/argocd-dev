@@ -21,8 +21,8 @@ hello-kubernetes:
     enabled: true
     httpRoute:
     parentRefs:
-      - name: test
-        namespace: test
+      - name: kong
+        namespace: kong
     hostnames:
       - hello-kubernetes.internal
     rules:
