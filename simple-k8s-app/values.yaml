@@ -9,6 +9,8 @@ hello-kubernetes:
     strategy:
       blueGreen:
         autoPromotionEnabled: true
+        connectivityTest:
+          enabled: true
 
   env:
     VAULT_SKIP: true
@@ -16,9 +18,6 @@ hello-kubernetes:
   hpa:
     enabled: true
     maxReplicas: 2
-
-  connectivityTest:
-    enabled: false
 
   httpRoute:
     enabled: true
