@@ -18,7 +18,7 @@ hello-kubernetes:
     maxReplicas: 2
 
   httpRoute:
-    enabled: false
+    enabled: true
     httpRoute:
     parentRefs:
       - name: test
@@ -32,7 +32,7 @@ hello-kubernetes:
               value: /
 
   ingress:
-    enabled: true
+    enabled: false
     ingressClassName: kong
     annotations:
       argocd.argoproj.io/ignore-default-links: "true"
