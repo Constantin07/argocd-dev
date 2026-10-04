@@ -2,10 +2,10 @@ hello-kubernetes:
   replicaCount: 1
 
   deployment:
-    enabled: false
+    enabled: true
 
   rollouts:
-    enabled: true
+    enabled: false
     strategy:
       blueGreen:
         autoPromotionEnabled: true
