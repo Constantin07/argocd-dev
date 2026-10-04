@@ -17,6 +17,9 @@ hello-kubernetes:
     enabled: true
     maxReplicas: 2
 
+  connectivityTest:
+    enabled: false
+
   httpRoute:
     enabled: true
     httpRoute:
