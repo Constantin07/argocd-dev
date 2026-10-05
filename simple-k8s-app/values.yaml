@@ -21,7 +21,6 @@ hello-kubernetes:
 
   httpRoute:
     enabled: true
-    httpRoute:
     parentRefs:
       - name: kong
         namespace: kong
