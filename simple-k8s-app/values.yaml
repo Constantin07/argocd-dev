@@ -11,7 +11,7 @@ hello-kubernetes:
         autoPromotionEnabled: true
 
       connectivityTest:
-        enabled: true
+        enabled: false
         # url: "http://hello-kubernetes-preview.internal:30000" 
 
   env:
