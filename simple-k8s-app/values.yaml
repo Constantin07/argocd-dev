@@ -12,7 +12,7 @@ hello-kubernetes:
 
       connectivityTest:
         enabled: true
-        url: "http://hello-kubernetes-preview.internal:30000" 
+        # url: "http://hello-kubernetes-preview.internal:30000" 
 
   env:
     VAULT_SKIP: true
