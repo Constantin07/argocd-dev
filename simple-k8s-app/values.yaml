@@ -1,9 +1,9 @@
 hello-kubernetes:
   deployment:
-    enabled: false
+    enabled: true
 
   rollouts:
-    enabled: true
+    enabled: false
     strategy:
       blueGreen:
         autoPromotionEnabled: true
