@@ -14,6 +14,9 @@ hello-kubernetes:
         - pause: { duration: 10s }
         - setWeight: 30
         - pause: { duration: 10s }
+        - setWeight: 50
+        - pause: { duration: 10s }
+        - setWeight: 100
       
     connectivityTest:
       enabled: false
