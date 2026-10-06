@@ -4,12 +4,19 @@ hello-kubernetes:
 
   rollouts:
     enabled: true
-    strategy: blueGreen
+    strategy: canary
     blueGreen:
       autoPromotionEnabled: true
 
+    canary:
+      steps:
+        - setWeight: 10
+        - pause: { duration: 10s }
+        - setWeight: 30
+        - pause: { duration: 10s }
+      
     connectivityTest:
-      enabled: true
+      enabled: false
       url: "http://hello-kubernetes-preview.internal:30000" 
 
   env:
