@@ -10,16 +10,14 @@ hello-kubernetes:
 
     canary:
       steps:
-        - setCanaryScale:
-            replicas: 1
         - setWeight: 20
-        - pause: { duration: 10s }
+        - pause: { duration: 15s }
         - setWeight: 40
-        - pause: { duration: 10s }
+        - pause: { duration: 15s }
         - setWeight: 60
-        - pause: { duration: 10s }
+        - pause: { duration: 15s }
         - setWeight: 80
-        - pause: { duration: 10s }
+        - pause: { duration: 15s }
       
     connectivityTest:
       enabled: false
