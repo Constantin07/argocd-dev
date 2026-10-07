@@ -4,7 +4,7 @@ hello-kubernetes:
 
   rollouts:
     enabled: true
-    strategy: canary
+    strategy: blueGreen
     blueGreen:
       autoPromotionEnabled: true
 
