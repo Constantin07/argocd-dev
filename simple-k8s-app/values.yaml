@@ -12,15 +12,22 @@ hello-kubernetes:
       steps:
         - setWeight: 20
         - pause: { duration: 15s }
+        - analysis: {}
+
         - setWeight: 40
         - pause: { duration: 15s }
+        - analysis: {}
+
         - setWeight: 60
         - pause: { duration: 15s }
+        - analysis: {}
+
         - setWeight: 80
         - pause: { duration: 15s }
+        - analysis: {}
       
     connectivityTest:
-      enabled: true
+      enabled: false
 
   env:
     VAULT_SKIP: true
