@@ -20,7 +20,7 @@ hello-kubernetes:
         - pause: { duration: 15s }
       
     connectivityTest:
-      enabled: false
+      enabled: true
       url: "http://hello-kubernetes-preview.internal:30000" 
 
   env:
