@@ -27,7 +27,7 @@ hello-kubernetes:
         - analysis: {}
       
     connectivityTest:
-      enabled: false
+      enabled: true
 
   env:
     VAULT_SKIP: true
